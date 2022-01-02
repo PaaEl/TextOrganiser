@@ -4,6 +4,7 @@ List all Firefox tabs with title and URL
 Supported input: json or jsonlz4 recovery files
 Default output: title (URL)
 Output format can be specified as argument
+from https://gist.github.com/tmonjalo/33c4402b0d35f1233020bf427b5539fa
 """
 
 import json
