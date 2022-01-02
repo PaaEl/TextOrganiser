@@ -14,7 +14,7 @@ import lz4.block
 
 def list_fftabs():
     path = pathlib.Path.home().joinpath('.mozilla/firefox')
-    files = path.glob('pbrcp75g.bb/sessionstore-backups/recovery.jsonlz4')
+    files = path.glob('*default*/sessionstore-backups/recovery.jsonlz4')
     dic = {}
     for f in files:
         b = f.read_bytes()
